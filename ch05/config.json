@@ -1,0 +1,14 @@
+{
+    "joe": {
+        "path": "~/data/joe",
+        "max_files": 1024,
+        "quota_warning": 0.75,
+        "use_cache": true
+    },
+    "mike": {
+        "path": "~/data/mike",
+        "max_files": 2048,
+        "quota_warning": 0.5,
+        "use_cache": false
+    }
+}
