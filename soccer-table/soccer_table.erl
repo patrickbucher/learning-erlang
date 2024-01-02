@@ -1,7 +1,19 @@
 -module(soccer_table).
--export([compute_table/1]).
+-export([compute_table/1, output_table/1]).
 -record(result, {home_team="", away_team="", home_goals=0, away_goals=0}).
 -record(row, {rank=0, name="", wins=0, defeats=0, ties=0, scored=0, conceded=0, diff=0, points=0}).
+
+output_table(Rows) ->
+    Title = io_lib:format("~3s ~32s ~3s ~3s ~3s ~3s ~3s ~3s ~3s",
+                          ["#", "Team", "W", "T", "L", "+", "-", "=", "P"]),
+    Sep = string:copies("-", string:length(Title)),
+    Lines = lists:map(fun format_row/1, Rows),
+    lists:foreach(fun(L) -> io:format("~s~n", [L]) end, [Title, Sep | Lines]).
+
+format_row(#row{} = R) ->
+    io_lib:format("~3B ~32ts ~3B ~3B ~3B ~3B ~3B ~3B ~3B",
+                  [R#row.rank, R#row.name, R#row.wins, R#row.ties, R#row.defeats,
+                   R#row.scored, R#row.conceded, R#row.diff, R#row.points]).
 
 compute_table(File) ->
     Results = parse_matchfile(File),
