@@ -19,7 +19,9 @@ compute_table(File) ->
     Results = parse_matchfile(File),
     SingleRows = lists:flatten(lists:map(fun to_rows/1, Results)),
     TableRows = lists:foldl(fun accumulate_rows/2, maps:new(), SingleRows),
-    lists:sort(fun sort_rows/2, maps:values(TableRows)).
+    SortedRows = lists:sort(fun sort_rows/2, maps:values(TableRows)),
+    RankedRows = lists:map(fun({I, R}) -> R#row{rank=I} end, lists:enumerate(SortedRows)),
+    RankedRows.
 
 sort_rows(#row{name=LN, wins=LW, diff=LD, points=LP}, #row{name=RN, wins=RW, diff=RD, points=RP}) ->
     {LP, LD, LW, RN} > {RP, RD, RW, LN}.
@@ -66,4 +68,3 @@ to_result(Line, Pattern) ->
     {HG, _} = string:to_integer(HGStr),
     {AG, _} = string:to_integer(AGStr),
     #result{home_team=HT, away_team=AT, home_goals=HG, away_goals=AG}.
-
