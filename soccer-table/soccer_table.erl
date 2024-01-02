@@ -5,8 +5,8 @@
 
 compute_table(File) ->
     Results = parse_matchfile(File),
-    SingleRows = lists:flatten(lists:map(fun(R) -> to_rows(R) end, Results)),
-    TableRows = lists:foldl(fun(Row, Acc) -> accumulate_rows(Row, Acc) end, maps:new(), SingleRows),
+    SingleRows = lists:flatten(lists:map(fun to_rows/1, Results)),
+    TableRows = lists:foldl(fun accumulate_rows/2, maps:new(), SingleRows),
     maps:values(TableRows). % TODO: sorting, output (other function)
 
 accumulate_rows(#row{name=Name} = New, Acc) ->
