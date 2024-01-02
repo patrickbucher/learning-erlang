@@ -1,0 +1,376 @@
+Leeds United 2:4 Brighton & Hove Albion
+FC Fulham 1:0 Newcastle United
+FC Arsenal 2:3 FC Chelsea
+Wolverhampton Wanderers 3:1 West Ham United
+Tottenham Hotspur 1:1 Leicester City
+FC Brentford 2:4 Aston Villa
+Nottingham Forest 1:1 AFC Bournemouth
+Crystal Palace 4:0 Manchester City
+FC Liverpool 1:1 FC Everton
+Manchester United 1:0 FC Southhampton
+Tottenham Hotspur 2:3 AFC Bournemouth
+Newcastle United 4:1 Leicester City
+FC Brentford 0:1 Crystal Palace
+FC Chelsea 4:3 FC Liverpool
+Nottingham Forest 1:2 Manchester City
+FC Everton 3:2 Wolverhampton Wanderers
+FC Fulham 1:2 Manchester United
+FC Arsenal 1:2 Leeds United
+Brighton & Hove Albion 1:1 West Ham United
+Aston Villa 0:2 FC Southhampton
+Nottingham Forest 1:2 Tottenham Hotspur
+Wolverhampton Wanderers 1:1 FC Everton
+Aston Villa 4:1 AFC Bournemouth
+FC Liverpool 5:1 FC Brentford
+FC Southhampton 1:0 Manchester United
+Newcastle United 1:1 Manchester City
+FC Arsenal 2:1 Crystal Palace
+FC Chelsea 5:0 FC Fulham
+West Ham United 1:4 Brighton & Hove Albion
+Leicester City 5:1 Leeds United
+Crystal Palace 1:0 FC Brentford
+Manchester City 0:2 West Ham United
+FC Arsenal 2:2 Wolverhampton Wanderers
+Leicester City 1:2 Tottenham Hotspur
+FC Liverpool 0:0 FC Chelsea
+Newcastle United 2:2 Brighton & Hove Albion
+Manchester United 0:3 Aston Villa
+AFC Bournemouth 0:2 Leeds United
+FC Everton 5:1 FC Fulham
+Nottingham Forest 1:5 FC Southhampton
+Wolverhampton Wanderers 4:2 Manchester United
+Tottenham Hotspur 1:3 Brighton & Hove Albion
+Leeds United 0:0 Leicester City
+FC Chelsea 2:4 FC Arsenal
+Crystal Palace 0:2 West Ham United
+Aston Villa 1:1 Manchester City
+Newcastle United 5:2 FC Brentford
+FC Southhampton 1:2 Nottingham Forest
+FC Everton 4:3 FC Liverpool
+FC Fulham 2:1 AFC Bournemouth
+Aston Villa 0:1 Manchester United
+West Ham United 5:5 Wolverhampton Wanderers
+FC Everton 1:4 Newcastle United
+Crystal Palace 1:4 FC Arsenal
+Tottenham Hotspur 1:3 Manchester City
+FC Liverpool 1:2 Leicester City
+Leeds United 0:4 FC Fulham
+FC Brentford 0:3 FC Chelsea
+Brighton & Hove Albion 1:0 Nottingham Forest
+FC Southhampton 1:5 AFC Bournemouth
+Aston Villa 4:0 FC Brentford
+Leeds United 5:1 Tottenham Hotspur
+Newcastle United 0:3 West Ham United
+Leicester City 2:2 FC Liverpool
+Wolverhampton Wanderers 5:4 FC Chelsea
+FC Fulham 5:0 Crystal Palace
+Brighton & Hove Albion 5:4 FC Southhampton
+Manchester City 3:0 FC Everton
+Nottingham Forest 0:0 FC Arsenal
+AFC Bournemouth 1:0 Manchester United
+FC Fulham 2:0 Leeds United
+FC Everton 0:0 Nottingham Forest
+AFC Bournemouth 1:3 Leicester City
+FC Chelsea 1:0 Brighton & Hove Albion
+Wolverhampton Wanderers 0:5 Newcastle United
+West Ham United 4:4 FC Brentford
+Manchester United 3:4 Manchester City
+FC Arsenal 2:0 FC Southhampton
+Tottenham Hotspur 0:1 Crystal Palace
+FC Liverpool 5:2 Aston Villa
+FC Southhampton 0:1 FC Fulham
+Manchester United 3:1 Nottingham Forest
+AFC Bournemouth 2:1 Brighton & Hove Albion
+FC Chelsea 4:5 FC Brentford
+Aston Villa 2:1 FC Everton
+Manchester City 1:2 Crystal Palace
+Tottenham Hotspur 2:1 Leeds United
+West Ham United 5:1 FC Liverpool
+FC Arsenal 5:0 Leicester City
+Newcastle United 1:1 Wolverhampton Wanderers
+Manchester United 2:0 AFC Bournemouth
+FC Fulham 2:4 FC Southhampton
+Brighton & Hove Albion 0:0 Newcastle United
+FC Liverpool 2:2 Manchester City
+Nottingham Forest 3:3 Leicester City
+Aston Villa 1:0 Leeds United
+FC Chelsea 1:0 Wolverhampton Wanderers
+Tottenham Hotspur 3:0 FC Arsenal
+West Ham United 1:1 Crystal Palace
+FC Brentford 2:0 FC Everton
+FC Southhampton 0:3 Wolverhampton Wanderers
+Brighton & Hove Albion 1:1 AFC Bournemouth
+Aston Villa 2:1 West Ham United
+Crystal Palace 5:3 FC Fulham
+Manchester United 2:5 FC Brentford
+FC Chelsea 5:1 FC Everton
+Tottenham Hotspur 1:3 Nottingham Forest
+Leeds United 0:3 FC Arsenal
+Manchester City 0:2 FC Liverpool
+Leicester City 5:2 Newcastle United
+Nottingham Forest 4:1 Manchester United
+Wolverhampton Wanderers 0:0 Manchester City
+Crystal Palace 1:2 FC Liverpool
+West Ham United 1:1 Leicester City
+Brighton & Hove Albion 3:3 FC Fulham
+FC Chelsea 2:1 AFC Bournemouth
+FC Everton 2:0 FC Brentford
+Leeds United 2:0 Aston Villa
+Tottenham Hotspur 2:1 Newcastle United
+FC Southhampton 4:4 FC Arsenal
+FC Arsenal 4:2 Aston Villa
+FC Southhampton 0:2 FC Chelsea
+Crystal Palace 1:0 Tottenham Hotspur
+Wolverhampton Wanderers 2:0 Leeds United
+FC Liverpool 3:2 West Ham United
+Newcastle United 0:1 AFC Bournemouth
+Nottingham Forest 4:2 Brighton & Hove Albion
+FC Everton 0:5 Manchester City
+FC Fulham 1:2 Leicester City
+FC Brentford 5:0 Manchester United
+FC Chelsea 2:2 FC Southhampton
+Manchester City 0:0 Aston Villa
+FC Liverpool 3:0 Brighton & Hove Albion
+FC Arsenal 1:1 Nottingham Forest
+Leeds United 1:2 Wolverhampton Wanderers
+Leicester City 0:5 FC Brentford
+FC Fulham 0:2 West Ham United
+AFC Bournemouth 0:1 FC Everton
+Manchester United 3:5 Newcastle United
+Leicester City 0:5 FC Fulham
+Aston Villa 0:0 FC Liverpool
+Wolverhampton Wanderers 1:5 FC Southhampton
+Manchester City 3:0 Manchester United
+Leeds United 2:5 West Ham United
+AFC Bournemouth 5:2 FC Brentford
+Brighton & Hove Albion 1:2 FC Arsenal
+Nottingham Forest 2:1 Newcastle United
+FC Everton 3:1 Tottenham Hotspur
+FC Chelsea 1:1 Crystal Palace
+Newcastle United 0:3 Tottenham Hotspur
+FC Brentford 1:1 Leicester City
+Crystal Palace 0:2 FC Everton
+FC Fulham 2:0 Brighton & Hove Albion
+Manchester United 3:1 Wolverhampton Wanderers
+Aston Villa 2:1 FC Chelsea
+FC Arsenal 1:3 West Ham United
+Nottingham Forest 1:0 FC Liverpool
+FC Southhampton 1:5 Leeds United
+AFC Bournemouth 0:5 Manchester City
+FC Southhampton 4:1 Aston Villa
+FC Brentford 2:1 Leeds United
+Manchester City 1:1 FC Chelsea
+Brighton & Hove Albion 2:0 Tottenham Hotspur
+Leicester City 0:4 AFC Bournemouth
+Newcastle United 1:1 FC Everton
+FC Fulham 0:3 Wolverhampton Wanderers
+FC Liverpool 2:1 Nottingham Forest
+West Ham United 5:1 Manchester United
+FC Brentford 4:2 FC Liverpool
+Newcastle United 1:4 Nottingham Forest
+Brighton & Hove Albion 1:1 FC Chelsea
+Manchester City 0:4 FC Arsenal
+AFC Bournemouth 4:1 Tottenham Hotspur
+Leicester City 4:1 FC Southhampton
+West Ham United 0:1 Leeds United
+Manchester United 1:4 FC Fulham
+FC Everton 2:0 Aston Villa
+Wolverhampton Wanderers 0:0 Crystal Palace
+Newcastle United 1:1 FC Fulham
+FC Liverpool 3:2 Leeds United
+Manchester City 1:1 Nottingham Forest
+Wolverhampton Wanderers 0:3 AFC Bournemouth
+Crystal Palace 2:1 Leicester City
+FC Everton 0:2 FC Chelsea
+Manchester United 0:0 Tottenham Hotspur
+FC Brentford 3:0 FC Arsenal
+Brighton & Hove Albion 1:2 Aston Villa
+FC Southhampton 0:3 West Ham United
+Brighton & Hove Albion 0:1 Leeds United
+Newcastle United 0:3 FC Fulham
+FC Chelsea 1:2 FC Arsenal
+West Ham United 5:5 Wolverhampton Wanderers
+Leicester City 4:1 Tottenham Hotspur
+Aston Villa 2:1 FC Brentford
+AFC Bournemouth 4:5 Nottingham Forest
+Manchester City 0:1 Crystal Palace
+FC Everton 0:4 FC Liverpool
+FC Southhampton 3:1 Manchester United
+AFC Bournemouth 0:5 Tottenham Hotspur
+Leicester City 3:2 Newcastle United
+Crystal Palace 3:1 FC Brentford
+FC Liverpool 1:1 FC Chelsea
+Manchester City 1:1 Nottingham Forest
+Wolverhampton Wanderers 2:1 FC Everton
+Manchester United 4:1 FC Fulham
+Leeds United 1:3 FC Arsenal
+West Ham United 1:1 Brighton & Hove Albion
+FC Southhampton 1:5 Aston Villa
+Tottenham Hotspur 5:2 Nottingham Forest
+FC Everton 0:5 Wolverhampton Wanderers
+AFC Bournemouth 1:2 Aston Villa
+FC Brentford 4:2 FC Liverpool
+Manchester United 2:0 FC Southhampton
+Manchester City 2:0 Newcastle United
+Crystal Palace 1:2 FC Arsenal
+FC Fulham 3:5 FC Chelsea
+Brighton & Hove Albion 2:5 West Ham United
+Leeds United 0:0 Leicester City
+FC Brentford 1:2 Crystal Palace
+West Ham United 4:4 Manchester City
+Wolverhampton Wanderers 3:2 FC Arsenal
+Tottenham Hotspur 1:5 Leicester City
+FC Chelsea 2:3 FC Liverpool
+Brighton & Hove Albion 0:2 Newcastle United
+Aston Villa 2:3 Manchester United
+Leeds United 0:2 AFC Bournemouth
+FC Fulham 2:0 FC Everton
+FC Southhampton 0:4 Nottingham Forest
+Manchester United 5:4 Wolverhampton Wanderers
+Brighton & Hove Albion 2:0 Tottenham Hotspur
+Leicester City 4:1 Leeds United
+FC Arsenal 4:3 FC Chelsea
+West Ham United 1:2 Crystal Palace
+Manchester City 0:3 Aston Villa
+FC Brentford 1:1 Newcastle United
+Nottingham Forest 5:0 FC Southhampton
+FC Liverpool 4:3 FC Everton
+AFC Bournemouth 2:0 FC Fulham
+Manchester United 2:2 Aston Villa
+Wolverhampton Wanderers 1:2 West Ham United
+Newcastle United 3:2 FC Everton
+FC Arsenal 2:0 Crystal Palace
+Manchester City 1:2 Tottenham Hotspur
+Leicester City 0:1 FC Liverpool
+FC Fulham 2:1 Leeds United
+FC Chelsea 2:0 FC Brentford
+Nottingham Forest 0:5 Brighton & Hove Albion
+AFC Bournemouth 4:2 FC Southhampton
+FC Brentford 3:4 Aston Villa
+Tottenham Hotspur 1:2 Leeds United
+West Ham United 2:4 Newcastle United
+FC Liverpool 1:1 Leicester City
+FC Chelsea 2:2 Wolverhampton Wanderers
+Crystal Palace 0:0 FC Fulham
+FC Southhampton 1:2 Brighton & Hove Albion
+FC Everton 3:0 Manchester City
+FC Arsenal 1:0 Nottingham Forest
+Manchester United 4:0 AFC Bournemouth
+Leeds United 5:0 FC Fulham
+Nottingham Forest 3:0 FC Everton
+Leicester City 0:3 AFC Bournemouth
+Brighton & Hove Albion 2:3 FC Chelsea
+Newcastle United 3:2 Wolverhampton Wanderers
+FC Brentford 0:5 West Ham United
+Manchester City 1:1 Manchester United
+FC Southhampton 3:2 FC Arsenal
+Crystal Palace 4:2 Tottenham Hotspur
+Aston Villa 4:5 FC Liverpool
+FC Fulham 3:0 FC Southhampton
+Nottingham Forest 1:0 Manchester United
+Brighton & Hove Albion 1:4 AFC Bournemouth
+FC Brentford 4:4 FC Chelsea
+FC Everton 4:4 Aston Villa
+Crystal Palace 1:0 Manchester City
+Leeds United 2:1 Tottenham Hotspur
+FC Liverpool 2:0 West Ham United
+Leicester City 3:1 FC Arsenal
+Wolverhampton Wanderers 0:3 Newcastle United
+AFC Bournemouth 2:0 Manchester United
+FC Southhampton 0:4 FC Fulham
+Newcastle United 2:1 Brighton & Hove Albion
+Manchester City 1:1 FC Liverpool
+Leicester City 5:4 Nottingham Forest
+Leeds United 2:3 Aston Villa
+Wolverhampton Wanderers 0:2 FC Chelsea
+FC Arsenal 1:1 Tottenham Hotspur
+Crystal Palace 0:2 West Ham United
+FC Everton 3:1 FC Brentford
+Wolverhampton Wanderers 2:1 FC Southhampton
+AFC Bournemouth 3:1 Brighton & Hove Albion
+West Ham United 1:2 Aston Villa
+FC Fulham 0:4 Crystal Palace
+FC Brentford 3:5 Manchester United
+FC Everton 1:0 FC Chelsea
+Nottingham Forest 1:4 Tottenham Hotspur
+FC Arsenal 0:1 Leeds United
+FC Liverpool 0:2 Manchester City
+Newcastle United 3:4 Leicester City
+Manchester United 5:2 Nottingham Forest
+Manchester City 2:2 Wolverhampton Wanderers
+FC Liverpool 1:2 Crystal Palace
+Leicester City 2:5 West Ham United
+FC Fulham 2:1 Brighton & Hove Albion
+AFC Bournemouth 4:0 FC Chelsea
+FC Brentford 0:1 FC Everton
+Aston Villa 1:1 Leeds United
+Newcastle United 0:3 Tottenham Hotspur
+FC Arsenal 2:1 FC Southhampton
+Aston Villa 0:3 FC Arsenal
+FC Chelsea 3:1 FC Southhampton
+Tottenham Hotspur 1:4 Crystal Palace
+Leeds United 1:0 Wolverhampton Wanderers
+West Ham United 4:2 FC Liverpool
+AFC Bournemouth 0:2 Newcastle United
+Brighton & Hove Albion 0:2 Nottingham Forest
+Manchester City 2:0 FC Everton
+Leicester City 1:3 FC Fulham
+Manchester United 2:1 FC Brentford
+FC Southhampton 1:4 FC Chelsea
+Aston Villa 3:2 Manchester City
+Brighton & Hove Albion 2:5 FC Liverpool
+Nottingham Forest 4:5 FC Arsenal
+Wolverhampton Wanderers 1:0 Leeds United
+FC Brentford 1:1 Leicester City
+West Ham United 2:1 FC Fulham
+FC Everton 2:2 AFC Bournemouth
+Newcastle United 0:1 Manchester United
+FC Fulham 0:1 Leicester City
+FC Liverpool 3:1 Aston Villa
+FC Southhampton 2:1 Wolverhampton Wanderers
+Manchester United 2:4 Manchester City
+West Ham United 1:0 Leeds United
+FC Brentford 0:1 AFC Bournemouth
+FC Arsenal 1:2 Brighton & Hove Albion
+Newcastle United 1:5 Nottingham Forest
+Tottenham Hotspur 2:0 FC Everton
+Crystal Palace 1:2 FC Chelsea
+Tottenham Hotspur 4:2 Newcastle United
+Leicester City 0:1 FC Brentford
+FC Everton 1:1 Crystal Palace
+Brighton & Hove Albion 0:4 FC Fulham
+Wolverhampton Wanderers 2:0 Manchester United
+FC Chelsea 1:2 Aston Villa
+West Ham United 1:0 FC Arsenal
+FC Liverpool 0:1 Nottingham Forest
+Leeds United 0:3 FC Southhampton
+Manchester City 2:1 AFC Bournemouth
+Aston Villa 1:0 FC Southhampton
+Leeds United 2:2 FC Brentford
+FC Chelsea 1:0 Manchester City
+Tottenham Hotspur 2:0 Brighton & Hove Albion
+AFC Bournemouth 2:3 Leicester City
+FC Everton 1:3 Newcastle United
+Wolverhampton Wanderers 2:3 FC Fulham
+Nottingham Forest 0:3 FC Liverpool
+Manchester United 2:2 West Ham United
+FC Liverpool 1:1 FC Brentford
+Nottingham Forest 1:1 Newcastle United
+FC Chelsea 4:3 Brighton & Hove Albion
+FC Arsenal 4:0 Manchester City
+Tottenham Hotspur 5:1 AFC Bournemouth
+FC Southhampton 2:2 Leicester City
+Leeds United 2:3 West Ham United
+FC Fulham 0:2 Manchester United
+Aston Villa 1:5 FC Everton
+Crystal Palace 0:1 Wolverhampton Wanderers
+FC Fulham 1:3 Newcastle United
+Leeds United 1:1 FC Liverpool
+Nottingham Forest 0:1 Manchester City
+AFC Bournemouth 0:2 Wolverhampton Wanderers
+Leicester City 2:1 Crystal Palace
+FC Chelsea 0:5 FC Everton
+Tottenham Hotspur 2:5 Manchester United
+FC Arsenal 2:2 FC Brentford
+Aston Villa 5:3 Brighton & Hove Albion
+West Ham United 5:1 FC Southhampton
