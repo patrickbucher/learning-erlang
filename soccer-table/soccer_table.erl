@@ -6,7 +6,28 @@
 compute_table(File) ->
     Results = parse_matchfile(File),
     SingleRows = lists:flatten(lists:map(fun(R) -> to_rows(R) end, Results)),
-    SingleRows. % todo: accumulate single rows
+    TableRows = lists:foldl(fun(Row, Acc) -> accumulate_rows(Row, Acc) end, maps:new(), SingleRows),
+    maps:values(TableRows). % TODO: sorting, output (other function)
+
+accumulate_rows(#row{name=Name} = New, Acc) ->
+    case maps:is_key(Name, Acc) of
+        true -> 
+            Old = maps:get(Name, Acc),
+            Acc#{
+              Name := 
+              #row{
+                 name = Name,
+                 wins = New#row.wins + Old#row.wins,
+                 defeats = New#row.defeats + Old#row.defeats,
+                 ties = New#row.ties + Old#row.ties,
+                 scored = New#row.scored + Old#row.scored,
+                 conceded = New#row.conceded + Old#row.conceded,
+                 diff = New#row.diff + Old#row.diff,
+                 points = New#row.points + Old#row.points
+                }
+             };
+        false -> Acc#{Name => New}
+    end.
 
 to_rows(#result{home_team=HT, away_team=AT, home_goals=HG, away_goals=AG}) when HG > AG ->
     [#row{name=HT, wins=1, scored=HG, conceded=AG, diff=HG-AG, points=3},
