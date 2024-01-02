@@ -10,21 +10,7 @@ compute_table(File) ->
     lists:sort(fun sort_rows/2, maps:values(TableRows)).
 
 sort_rows(#row{name=LN, wins=LW, diff=LD, points=LP}, #row{name=RN, wins=RW, diff=RD, points=RP}) ->
-    case compare_numeric({LP, LD, LW}, {RP, RD, RW}) of
-        bigger -> true;
-        smaller -> false;
-        equal -> LN < RN
-    end.
-
-compare_numeric(Left, Right) ->
-    case Left == Right of
-        true -> equal;
-        false ->
-            case Left > Right of
-                true -> bigger;
-                false -> smaller
-            end
-    end.
+    {LP, LD, LW, RN} > {RP, RD, RW, LN}.
 
 accumulate_rows(#row{name=Name} = New, Acc) ->
     case maps:is_key(Name, Acc) of
