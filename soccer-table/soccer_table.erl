@@ -7,7 +7,24 @@ compute_table(File) ->
     Results = parse_matchfile(File),
     SingleRows = lists:flatten(lists:map(fun to_rows/1, Results)),
     TableRows = lists:foldl(fun accumulate_rows/2, maps:new(), SingleRows),
-    maps:values(TableRows). % TODO: sorting, output (other function)
+    lists:sort(fun sort_rows/2, maps:values(TableRows)).
+
+sort_rows(#row{name=LN, wins=LW, diff=LD, points=LP}, #row{name=RN, wins=RW, diff=RD, points=RP}) ->
+    case compare_numeric({LP, LD, LW}, {RP, RD, RW}) of
+        bigger -> true;
+        smaller -> false;
+        equal -> LN < RN
+    end.
+
+compare_numeric(Left, Right) ->
+    case Left == Right of
+        true -> equal;
+        false ->
+            case Left > Right of
+                true -> bigger;
+                false -> smaller
+            end
+    end.
 
 accumulate_rows(#row{name=Name} = New, Acc) ->
     case maps:is_key(Name, Acc) of
@@ -51,3 +68,4 @@ to_result(Line, Pattern) ->
     {HG, _} = string:to_integer(HGStr),
     {AG, _} = string:to_integer(AGStr),
     #result{home_team=HT, away_team=AT, home_goals=HG, away_goals=AG}.
+
