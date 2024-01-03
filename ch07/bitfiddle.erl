@@ -1,5 +1,5 @@
 -module(bitfiddle).
--export([reverse_bytes/1, binary_to_packet/1, packet_to_term/1,
+-export([reverse_bytes/1, binary_to_packet/1, packet_to_term/1, reverse_bits/1,
          test_reverse_bytes/0, test_packet/0]).
 
 % usage:
@@ -26,6 +26,14 @@ binary_to_packet(Term) ->
 packet_to_term(Packet) when is_bitstring(Packet) ->
     <<_:(4*8), Payload/binary>> = Packet,
     binary_to_term(Payload).
+
+% usage:
+% > bitfiddle:reverse_bits(<<4>>).
+% <<0,0,1,0,0,0,0,0>>
+reverse_bits(Bits) when is_binary(Bits) ->
+    BitList = [ X || <<X:1>> <= Bits ],
+    Reversed = lists:reverse(BitList),
+    << <<X>> || X <- Reversed >>.
 
 % usage:
 % > bitfiddle:test_reverse_bytes().
