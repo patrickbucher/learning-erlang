@@ -10,7 +10,7 @@ Furthermore, there are some additional examples:
 
 - [`soccer-table`](soccer-table/): Compute and display the league table from a
   given file of soccer results.
-- [`huffman`](huffman/): Compress and decompress test using Huffman coding
+- [`huffman`](huffman/): Compress and decompress text using Huffman coding
   trees.
 
 ## First Steps
