@@ -1,5 +1,17 @@
 -module(huffman).
--export([compress/1, decompress/2]).
+-export([compress/1, decompress/2, compress_file/2, decompress_file/2]).
+
+compress_file(Source, Destination) ->
+    {ok, Data} = file:read_file(Source),
+    Compressed = compress(Data),
+    Payload = term_to_binary(Compressed),
+    file:write_file(Destination, Payload).
+
+decompress_file(Source, Destination) ->
+    {ok, Data} = file:read_file(Source),
+    {Payload, Tree} = binary_to_term(Data),
+    Decompressed = decompress(Payload, Tree),
+    file:write_file(Destination, Decompressed).
 
 decompress(Payload, Tree) ->
     decode(Payload, Tree, Tree, <<>>).

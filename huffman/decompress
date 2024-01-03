@@ -1,0 +1,4 @@
+#!/usr/bin/env escript
+
+main([Source, Destination]) ->
+    huffman:decompress_file(Source, Destination).
