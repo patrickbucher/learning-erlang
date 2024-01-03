@@ -8,9 +8,10 @@ Armstrong. The chapter folders (`ch01`, `ch02`, …) contain my solutions to
 
 Furthermore, there are some additional examples:
 
-- `soccer-table`: Compute and display the league table from a given file of
-  soccer results.
-- `huffman`: Compress and decompress test using Huffman coding trees.
+- [`soccer-table`](soccer-table/): Compute and display the league table from a
+  given file of soccer results.
+- [`huffman`](huffman/): Compress and decompress test using Huffman coding
+  trees.
 
 ## First Steps
 
