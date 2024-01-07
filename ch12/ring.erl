@@ -2,13 +2,13 @@
 -export([benchmark/3, forward/1]).
 
 benchmark(N, M, Debug) ->
-    statistics(wall_clock),
     case whereis(controller) of
         undefined -> register(controller, self());
         _ -> ok
     end,
     Pids = lists:map(fun(I) -> {I, spawn(ring, forward, [Debug])} end, lists:seq(1, N)),
     PidsByIndex = maps:from_list(Pids),
+    statistics(wall_clock),
     lists:foreach(fun(I) ->
                           Message = io_lib:format("hello ~b", [I]),
                           maps:get(1, PidsByIndex) ! {1, PidsByIndex, Message}
