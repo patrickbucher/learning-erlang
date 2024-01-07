@@ -22,7 +22,6 @@ func main() {
 }
 
 func benchmark(n int, m int, debug bool) {
-	done := make(chan struct{})
 	nodes := make([]Node, 0)
 
 	for i := 0; i < n; i++ {
@@ -48,16 +47,12 @@ func benchmark(n int, m int, debug bool) {
 			ch <- fmt.Sprintf("hello %d", j)
 		}
 	}(nodes[0].Chan)
-	go func(ch <-chan string) {
-		for j := 0; j < m; j++ {
-			message := <-ch
-			if debug {
-				fmt.Printf("'%s' forwarded from %d to %d\n", message, n-2, n-1)
-			}
+	for j := 0; j < m; j++ {
+		message := <-nodes[n-1].Chan
+		if debug {
+			fmt.Printf("'%s' forwarded from %d to %d\n", message, n-2, n-1)
 		}
-		done <- struct{}{}
-	}(nodes[n-1].Chan)
-	<-done
+	}
 	end := time.Now()
 	diff := end.Sub(start)
 	fmt.Printf("forwarded %d messages %d times in %v\n", m, n, diff)
