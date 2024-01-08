@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
-N=10000
-M=3
+N=100000
+M=10
 DEBUG=false
 
 erlc ring.erl
