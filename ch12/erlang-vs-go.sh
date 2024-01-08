@@ -1,9 +1,10 @@
 #!/usr/bin/bash
 
-N=100000
-M=10
+N=200000
+M=100
 DEBUG=false
 
 erlc ring.erl
 erl -noshell -eval "ring:benchmark($N, $M, $DEBUG)" -s init stop
-go run ring.go $N $M $DEBUG
+go build ring.go
+./ring $N $M $DEBUG
