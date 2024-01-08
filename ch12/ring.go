@@ -10,7 +10,6 @@ import (
 type Node struct {
 	ID   int
 	Chan chan string
-	Pred *Node
 	Succ *Node
 }
 
@@ -22,22 +21,16 @@ func main() {
 }
 
 func benchmark(n int, m int, debug bool) {
-	nodes := make([]Node, 0)
-
+	nodes := make([]*Node, 0)
 	for i := 0; i < n; i++ {
-		nodes = append(nodes, Node{i, make(chan string), nil, nil})
+		nodes = append(nodes, &Node{i, make(chan string), nil})
 	}
 	for i := 0; i < n; i++ {
 		node := nodes[i]
-		if i > 0 {
-			node.Pred = &nodes[i-1]
-		}
 		if i < n-1 {
-			node.Succ = &nodes[i+1]
+			node.Succ = nodes[i+1]
 		}
-		nodes[i] = node
 	}
-
 	start := time.Now()
 	for i := 0; i < n-1; i++ {
 		go forward(nodes[i], debug)
@@ -58,7 +51,7 @@ func benchmark(n int, m int, debug bool) {
 	fmt.Printf("forwarded %d messages %d times in %v\n", m, n, diff)
 }
 
-func forward(node Node, debug bool) {
+func forward(node *Node, debug bool) {
 	for {
 		message := <-node.Chan
 		if debug {
