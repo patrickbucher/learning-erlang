@@ -4,7 +4,7 @@
 
 I'm learning Erlang using _Programming Erlang_ (Second Edition) written by Joe
 Armstrong. The chapter folders (`ch01`, `ch02`, …) contain my solutions to
-(most) exercises.
+(most) exercises. (Chapter 11 has _no_ exercises.)
 
 Furthermore, there are some additional examples:
 
