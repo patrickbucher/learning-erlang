@@ -2,13 +2,7 @@
 -export([benchmark/3, forward/3]).
 
 benchmark(N, M, Debug) ->
-    % register a controller process as final node
-    case whereis(controller) of
-        undefined -> register(controller, self());
-        _ -> ok
-    end,
-
-    % create and run n nodes
+    % create and run n+1 nodes (one pseudo)
     NodeIDs = lists:seq(0, N),
     Successors = lists:zip(NodeIDs, tl(NodeIDs), {pad, {N + 1, 0}}),
     PidPairs = lists:foldr(fun(Pair, Acc) -> connect(Pair, Acc, Debug) end, [], Successors),
