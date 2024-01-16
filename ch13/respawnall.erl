@@ -11,11 +11,10 @@ resurrection_loop(PidsIndexed) ->
     receive
         {'DOWN', _, process, _, _} ->
             io:format("resurrect all canaries~n"),
-            io:format("PidsIndexed: ~p~n", [PidsIndexed]),
-            NewPidsIndexed = maps:map(fun(I) ->
-                                              {spawn(fun() -> canary(I) end), I}
-                                      end, maps:values(PidsIndexed)),
-            lists:each(fun({Pid, _}) -> monitor(process, Pid) end, NewPidsIndexed),
+            NewPidsIndexed = lists:map(fun(I) ->
+                                               {spawn(fun() -> canary(I) end), I}
+                                       end, maps:values(PidsIndexed)),
+            lists:foreach(fun({Pid, _}) -> monitor(process, Pid) end, NewPidsIndexed),
             resurrection_loop(NewPidsIndexed)
     end.
 
