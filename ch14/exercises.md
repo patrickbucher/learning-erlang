@@ -61,3 +61,41 @@ Use the KVS from the client:
     true
     2> rpc:call(server@bookworm, kvs, lookup, [month]).
     {ok, january}
+
+# Exercise 3
+
+_Repeat the previous exercise, only with the two nodes on different networks._
+
+Make sure port 4369 (for the _Erlang Port Mapper Daemon_) is open on the server
+for **both TCP and UDP**, as well as an additional port range (e.g. 12000 to
+13000).
+
+Copy the KVS code to some remote server:
+
+    $ scp kvs.erl debian@wolfsegg:
+
+SSH into the server, install Erlang:
+
+    $ ssh debian@wolfsegg
+    $ sudo apt install -y erlang
+
+Starting the server:
+
+    $ erl -sname server -setcookie topsecret \
+      -kernel inet_dist_listen_min 12000 inet_dist_listen_max 13000
+    1> c(kvs).
+    {ok,kvs}
+    2> kvs:start(). 
+    true
+
+Starting the client:
+
+    $ erl -sname client -setcookie topsecret
+    1> rpc:call(server@wolfsegg, kvs, store, [year, 2024]).
+    {badrpc,nodedown}
+
+Did not work.
+
+# Exercise 4
+
+_skipped_
