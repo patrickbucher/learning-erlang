@@ -22,3 +22,42 @@ Second node (also on `thinkcentre`):
     true
     2> rpc:call(server@thinkcentre, kvs, lookup, [day]).
     {ok,sunday}
+
+# Exercise 2
+
+_Repeat the previous exercise, only with the two nodes on the same LAN._
+
+Starting an existing Debian 12 VM using libvirt:
+
+    $ sudo virsh start bookworm
+
+Copy the KVS code to the VM:
+
+    $ scp kvs.erl bookworm:
+
+SSH into the VM:
+
+    $ ssh bookworm
+
+Setting up Erlang:
+
+    $ sudo apt install -y erlang
+
+Starting the server (on the VM):
+
+    $ erl -sname server -setcookie topsecret
+    1> c(kvs).
+    {ok,kvs}
+    2> kvs:start().
+    true
+
+Starting the client (on the host):
+
+    $ erl -sname client -setcookie topsecret
+
+Use the KVS from the client:
+
+    1> rpc:call(server@bookworm, kvs, store, [month, january]).
+    true
+    2> rpc:call(server@bookworm, kvs, lookup, [month]).
+    {ok, january}
